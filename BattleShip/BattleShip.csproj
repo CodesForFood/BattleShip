@@ -41,7 +41,17 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Game1.cs" />
+    <Compile Include="GameFolder\Board.cs" />
+    <Compile Include="GameFolder\BoundBox.cs" />
+    <Compile Include="GameFolder\Controller.cs" />
+    <Compile Include="GameFolder\Enumerate.cs" />
+    <Compile Include="GameFolder\GUI\Button.cs" />
+    <Compile Include="GameFolder\Image.cs" />
+    <Compile Include="GameFolder\Phase.cs" />
+    <Compile Include="GameFolder\Screen.cs" />
+    <Compile Include="GameFolder\Ship.cs" />
+    <Compile Include="GameFolder\Tile.cs" />
+    <Compile Include="MainGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +69,7 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
